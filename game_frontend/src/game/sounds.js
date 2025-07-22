@@ -1,9 +1,15 @@
+import coinSound from "../assets/coin.wav";
+import jumpSound from "../assets/jump.wav";
+import hitSound from "../assets/hit.wav";
+import goalSound from "../assets/goal.wav";
+import themeMusic from "../assets/theme.mp3";
+
 const SOUNDS = {
-  coin: require("../assets/coin.wav"),
-  jump: require("../assets/jump.wav"),
-  hit: require("../assets/hit.wav"),
-  goal: require("../assets/goal.wav"),
-  theme: require("../assets/theme.mp3")
+  coin: coinSound,
+  jump: jumpSound,
+  hit: hitSound,
+  goal: goalSound,
+  theme: themeMusic
 };
 
 export function loadAudio() {
