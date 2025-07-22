@@ -1,0 +1,136 @@
+🔧 Game Requirements
+1. 🎮 Core Gameplay Mechanics
+Player Controls:
+
+Move left and right (arrow keys or A/D)
+
+Jump (spacebar or W key)
+
+Optional: Run or dash key for speed
+
+Game Actions:
+
+Jump on enemies to defeat them
+
+Collect coins and power-ups
+
+Avoid falling into pits or touching enemies
+
+Reach the goal (flag post or castle) to complete level
+
+2. 👾 Enemies & NPCs
+Basic enemies (e.g., Goomba-like creatures):
+
+Walk back and forth on platforms
+
+Defeated by jumping on them
+
+Optional advanced enemies (e.g., Koopa-like shell enemies, flying enemies)
+
+Enemy behavior can include:
+
+Patrol paths
+
+Falling off platforms (or turning around)
+
+3. 💠 Game Elements
+Platforms:
+
+Static platforms
+
+Moving platforms (horizontal/vertical)
+
+Blocks:
+
+Breakable bricks
+
+Question mark blocks (contain coins or power-ups)
+
+Power-ups:
+
+Growth mushroom (increase player size or health)
+
+Fireball ability (if implemented)
+
+Coins:
+
+Collected to increase score
+
+4. 🗺️ Level Design
+Side-scrolling level with:
+
+Starting area
+
+Variety of platforms, obstacles, enemies
+
+Pits and hazards
+
+End goal (flag or door/castle)
+
+Multiple levels or stages (at least 3 for demo)
+
+5. 🎨 Graphics & Animation
+Sprites:
+
+Player character (idle, running, jumping, dying)
+
+Enemies (walking, defeated)
+
+Blocks, backgrounds, platforms
+
+Animations:
+
+Smooth character movement and transitions
+
+Coin collection, enemy death, flagpole reach
+
+6. 🔊 Sound & Music
+Background music loop (classic platformer-style)
+
+Sound effects for:
+
+Jumping
+
+Coin collection
+
+Block breaking
+
+Power-up pickup
+
+Enemy defeat
+
+Game over / victory
+
+7. 📊 UI/UX Elements
+HUD Display:
+
+Score
+
+Coins
+
+Lives
+
+Level info
+
+Main Menu:
+
+Start Game
+
+Instructions
+
+Exit
+
+Game Over screen
+
+Level Complete screen
+
+8. 🛠️ Optional Features
+Save/Load progress
+
+Time-based levels
+
+Boss fight in final level
+
+Hidden areas / secret blocks
+
+World map screen like classic Mario

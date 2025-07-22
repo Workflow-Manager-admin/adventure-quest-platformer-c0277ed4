@@ -3,9 +3,13 @@ import coinImg from "../assets/coin.png";
 import heartImg from "../assets/heart.png";
 
 // PUBLIC_INTERFACE
-function HUD({ score, coins, lives }) {
+function HUD({ score, coins, lives, levelName }) {
   return (
     <div className="hud-bar">
+      <div className="hud-info">
+        <span className="hud-label">LEVEL</span>
+        <span>{levelName}</span>
+      </div>
       <div className="hud-info">
         <span className="hud-label">SCORE</span>
         <span>{score}</span>

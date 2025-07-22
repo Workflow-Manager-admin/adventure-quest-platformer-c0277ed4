@@ -1,10 +1,14 @@
-// PUBLIC_INTERFACE
+/*
+ * PUBLIC_INTERFACE
+ * Enhanced controls: adds run/dash.
+ */
 export function createKeys() {
-  return { left: false, right: false, jump: false };
+  return { left: false, right: false, jump: false, run: false };
 }
 
 /**
- * Attach keyboard events needed for platformer
+ * Attach keyboard events needed for platformer game.
+ * Adds support for run/dash key (ShiftLeft, ShiftRight).
  */
 export function attachKeyboardHandlers(setKeys, getGameStatusCb) {
   function handler(e, val) {
@@ -16,6 +20,7 @@ export function attachKeyboardHandlers(setKeys, getGameStatusCb) {
       code === "Space" ||
       code === "KeyW"
     ) setKeys(k => ({ ...k, jump: val }));
+    if (code === "ShiftLeft" || code === "ShiftRight") setKeys(k => ({ ...k, run: val }));
   }
   function onKeyDown(e) {
     handler(e, true);
